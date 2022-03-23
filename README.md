@@ -1,6 +1,6 @@
 # Molotov Extensions
 
-Библиотека для сбора метрик для [Molotov](https://molotov.readthedocs.io/en/stable/)
+Library for collecting metrics for [Molotov](https://molotov.readthedocs.io/en/stable/)
 
 ## Installation
 
