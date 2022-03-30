@@ -5,7 +5,7 @@ Library for collecting metrics for [Molotov](https://molotov.readthedocs.io/en/s
 ## Installation
 
 ```shell
-pip3 install git+https://github.com/2gis-test-labs/molotov-ext.git
+pip3 install molotov-ext
 ```
 
 ## Example
