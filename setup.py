@@ -13,7 +13,7 @@ setup(
     description="Library for collecting metrics for Molotov",
     long_description=open("README.md").read(),
     long_description_content_type="text/markdown",
-    version="1.0.0",
+    version="1.0.1",
     url="https://github.com/2gis-test-labs/molotov-ext",
     license="Apache-2.0",
     author="2GIS Test Labs",
