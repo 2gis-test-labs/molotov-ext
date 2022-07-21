@@ -58,7 +58,8 @@ class Recorder:
             error_record = ErrorRecord(worker_id, scenario_name, record.scenario_ended, repr(exception))
             molotov.util.stop(error_record)
         if isinstance(exception, AssertionError):
-            record.scenario_assert_message = str(exception)
+            exception_message = str(exception)
+            record.scenario_assert_message = exception_message if exception_message else "assertion error"
         record.scenario_status = "FAILED"
         # если по какой то причине нет времени начала/конца запроса, то берем время начала/конца сценария
         if record.request_started is None:
